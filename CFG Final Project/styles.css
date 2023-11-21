@@ -1,0 +1,90 @@
+.body {
+        padding: 0%;
+        margin: 0%;
+
+}
+
+header {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar .nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .nav-link:hover {
+    color: lightgray;
+}
+
+.navbar p {
+    color: white;
+}
+
+
+.custom-grey-background {
+    background-color: #3a3a3a
+}
+
+.menu-section {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+}
+
+.custom-background {
+    background-image: url(footerimage2.png);
+    background-size: cover; 
+  }
+
+@media (min-width: 992px) {
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem; 
+    }
+    .navbar-brand {
+        margin-right: auto;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-collapse {
+        justify-content: center;
+    }
+}
+
+.menu-section a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    position: relative;
+    transition: color 0.3s ease; 
+}
+
+.menu-section a:hover {
+    color: black; 
+    text-shadow: 0 0 10px #ff64b1, 0 0 20px #ff99cc, 0 0 30px #ff99cc, 0 0 40px #ff99cc, 0 0 70px #ff99cc, 0 0 80px #ff99cc, 0 0 100px #ff99cc, 0 0 150px #ff99cc;
+    animation: flicker 1.5s infinite linear alternate-reverse;
+}
+
+@keyframes flicker {
+    0% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.standard-background {
+    background-image:url(ReservationsBackground.png);
+    background-size:contain
+
+}    

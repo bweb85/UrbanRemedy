@@ -1,0 +1,96 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1.header {
+    font-family: 'Dancing Script', cursive;
+}
+
+h2.header {
+    font-family: 'Dancing Script', cursive;
+}
+
+.navbar .nav-link {
+    text-decoration: none;
+    color: white !important;
+    font-size: 18px;
+}
+
+.navbar .nav-link:hover {
+    color: lightgray;
+}
+
+.navbar p {
+    color: white;
+}
+
+.custom-grey-background {
+    background-color: #3a3a3a;
+}
+
+.standard-background {
+    background-image:url(ReservationsBackground.png);
+    background-size:contain
+
+}    
+
+.menu-section {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+}
+
+.custom-background {
+    background-image: url(footerimage2.png);
+    background-size: cover;
+}
+
+.white-background{
+    background-color: whitesmoke;
+}
+
+.col-12,
+.col-md-3,
+.col-md-9,
+.col-md-1 {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.custom-border-bottom {
+    border-bottom: 2px solid black;
+}
+.navspacer { 
+    padding-top: 80px;
+ }
+
+ @media (min-width: 992px) {
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem; 
+    }
+    .navbar-brand {
+        margin-right: auto;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-collapse {
+        justify-content: center;
+    }
+}

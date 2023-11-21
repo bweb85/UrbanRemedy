@@ -1,0 +1,124 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.navbar .nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .nav-link:hover {   
+    color: lightgray;
+}
+
+.navbar p {
+    color: white;
+}
+
+
+.custom-grey-background {
+    background-color: #3a3a3a
+}
+
+body{
+    background-color: rgba(128, 128, 128, 0);
+    margin: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 100px; 
+    background: url(Cones.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}   
+
+header{
+    font-family: 'Quicksand';
+}
+
+h1{
+    text-align: center;
+    font-family: 'Dancing Script';
+
+}
+
+.cocktail{
+    opacity: 0.2;
+
+
+    
+}
+p{
+    text-align: center;
+    font-family: 'Quicksand';
+}
+
+div{
+    margin: 2px;
+}
+
+.accordion {
+    max-width: 1000px;
+    margin: 0 auto; 
+  }
+
+
+.accordion-body{
+    background-color: pink;
+    color: black;
+    font-family: 'Quicksand';
+    
+}
+
+.accordion-button{
+    background-color: pink;
+    
+
+}
+
+.accordion-header{
+    background-color: pink;
+    font-family: 'Quicksand';
+    
+}
+
+.accordion-item:hover .accordion-button {
+    background-color: white;
+    
+}
+
+h5{
+    text-decoration-line: underline;
+
+}
+
+.custom-background {
+    background-image: url(footerimage2.png);
+    background-size: cover; 
+  }
+
+  @media (min-width: 992px) {
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem; 
+    }
+    .navbar-brand {
+        margin-right: auto;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-collapse {
+        justify-content: center;
+    }
+}

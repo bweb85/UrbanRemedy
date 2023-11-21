@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Linking Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel=”stylesheet” href=”css/bootstrap.css”>
+    <link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
+    <!--Linking CSS-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!--Linking the font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Quicksand&display=swap" rel="stylesheet">
+    <title>Urban Remedy</title>
+</head>
+<body>
+    <header>
+        <!--Header-->
+        <!-- "container-fluid" is a full-width element that stretches to fill the entire width of the screen,
+        making your content extend from edge to edge.-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <!--<a class="navbar-brand" href="#"--><p style="color: rgba(173, 151, 161, 0.823); font-family: 'Dancing Script', cursive; font-size: 20px">55 Fairy Street, Roseheaven</p></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <div class="col"></div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-section">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="restaurant menu page.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reservations.html">Reservations</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!--Banner/Title-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4 d-none d-md-block" style="padding: 0;">
+                    <!-- Left content -->
+                    <img src="left.png" 
+                        width="auto"
+                        height="700px" style="object-fit: cover; width: 100%; height: 100%;">
+                </div>
+                <div class="col-12 col-md-4 d-flex flex-column align-items-center justify-content-between" id="title" style="background-color: white; height: 700px;">
+                    <!-- Middle content -->
+                    <br><h1 class="text-center" style="font-family: 'Dancing Script', cursive; font-size: 65px">Urban Remedy</h1>
+                    <div>
+                        <h4 class="text-center" style="font-family: 'Quicksand', sans-serif;">RESERVATIONS</h4>
+                        <p class="text-center" style="font-family: 'Quicksand', sans-serif;">CALL 555-555-5555 OR <a href="reservation.html" style="color: black;">BOOK ONLINE</a></p>
+                    </div>
+                </div>                         
+                <div class="col-4 d-none d-md-block" style="padding: 0;">
+                    <!-- Right content -->
+                    <img src="right.png"
+                        width="auto"
+                        height="700px" style="object-fit: cover; width: 100%; height: 100%;">
+                </div>
+            </div>
+        </div>
+        
+        <!--About section-->
+        <div class="container-fluid custom-grey-background">
+            <br><br><br>
+            <div class="row">
+                <h2 class="text-center" id="about-section" style="font-family: 'Dancing Script', cursive; font-size: 45px; color: white;"><b>ABOUT</b></h2>
+            </div>
+            <br><br>
+            <div class="row">
+                
+                <div class="col-lg-8 col-md-10 col-sm-12 mx-auto"> <!-- Adjusted column classes -->
+                    <p class="text-center" style="font-family: 'Quicksand', sans-serif; color: white;">
+                        Urban Remedy is an enchanting and sophisticated restaurant, exuding a dreamy and romantic ambiance. The interior is adorned with soft, flowing drapery, ethereal lighting, and a gentle infusion of floral elements, creating a captivating and whimsical atmosphere. The menu at Urban Remedy is a culinary masterpiece, offering a wide array of gourmet dishes that blend international flavors with an artistic touch. For those seeking a refined and truly magical dining experience, Urban Remedy is the perfect destination, where the ambiance and cuisine converge in a dreamscape of elegance.
+                       
+                    </p>
+                </div>
+            </div>
+            <br><br><br><br>
+        </div>
+        
+        
+        <!--Menu section-->
+        <div class="container-fluid menu-section standard-background">
+            <br>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-2 text-center">
+                    <h1 style="font-family: 'Dancing Script', cursive; font-size: 75px">MENU</h1>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-2 mb-3 text-center">
+                        <a href="restaurant menu page.html" class="neon">Main</a>
+                    </div>
+                    <div class="col-12 col-md-2 mb-3 text-center">
+                        <a href="restaurant menu page.html" class="neon">Brunch</a>
+                    </div>
+                    <div class="col-12 col-md-2 mb-3 text-center">
+                        <a href="restaurant menu page.html" class="neon">Desserts</a>
+                    </div>
+                    <div class="col-12 col-md-3 mb-3 text-center">
+                        <a href="restaurant menu page.html" class="neon">Drinks</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>    
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container-fluid custom-background">
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-3">
+                    <!-- First column content -->
+                    <h4 style="color: white; font-family: 'Dancing Script', cursive; font-size: 25px">RESTAURANT OPENING TIMES</h4>
+                    <p style="color: white; font-family: 'Quicksand', sans-serif;, cursive; font-size: 15px">We are open for lunch from 12pm until last reservation at 1.30pm and for dinner from 6.30pm until last reservation at 8.00pm.</p>
+                    <h4 style="color: white; font-family: 'Dancing Script', cursive; font-size: 20px">BOOK NOW:</h4>
+                    <div class="row">
+                        <div class="col">
+                          <input type="text" class="form-control semi-transparent-input" placeholder="First name" aria-label="First name">
+                        </div>
+                        <div class="col">
+                          <input type="text" class="form-control semi-transparent-input" placeholder="Last name" aria-label="Last name">
+                        </div>
+                      </div>
+                      <div class="row mt-3">
+                        <div class="col">
+                          <!-- Column for the select -->
+                          <div class="d-flex align-items-center">
+                            <!-- Flex container to align items -->
+                            <select class="form-select form-select-sm semi-transparent-input">
+                              <option disabled selected>Party size</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                              <option value="5">5</option>
+                              <option value="6">6</option>
+                            </select>
+                            <br>
+                            <button style="border: 0cap; background-color: transparent;"><a href="reservations.html" class="btn btn-sm btn-outline-light ms-2">&gt;</a></button>
+
+                            <!-- Button with ">" symbol, ms-2 adds margin to the left -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                <div class="col-2"></div>
+                <div class="col-3">
+                    <!-- Second column content -->
+                    <h4 style="color: white; font-family: 'Dancing Script', cursive; font-size: 25px">CONTACT US</h4>
+                    <p style="color: white; font-family: 'Quicksand', sans-serif; font-size: 15px;">Email: <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGLdbRjmsBwMLPbXqLNWGkSSCzcMqnWsLtrBvzlcTWfKqbbxRbPjfVSMzqkxPNTsZgpbmpj" style="color: white; text-decoration: underline;">enquiry@urbanremedy.co.uk</a><br>Phone number: 55-55-5555</p></p>
+                    <br>
+                    <h4 style="color: white; font-family: 'Dancing Script', cursive; font-size: 25px">FIND US</h4>
+                    <p style="color: white; font-family: 'Quicksand', sans-serif;, cursive; font-size: 15px">Urban Remedy<br>55 Fairy Street<br>Roseheaven<br>CB55 5PW</p>
+                </div>
+            </div>
+            <br>
+            <div class="row text-white text-center">
+                <div class="col">
+                    <p style="font-family: 'Quicksand', sans-serif;">© 2023 Urban Remedy. All Rights Reserved.</p>
+                </div>
+            </div>            
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="custom.js"></script>
+</body>
+</html>
